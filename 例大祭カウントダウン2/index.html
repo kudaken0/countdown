@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <!-- OGPの設定 -->
+    
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="例大祭カウントダウン" />
+    <meta property="og:description" content="例大祭が開会されるまでをカウントダウンします。" />
+    <meta property="og:url" content="https://kudaken.com/reitaisai-cd" />
+    <meta property="og:site_name" content="くだけんのブログ" />
+    <meta property="og:image" content="https://kudaken.com/reitaisai-cd/card/card0.jpg" />
+    
+    <!-- Twitterカードの設定 -->
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kudaken0" />
+  
+    <title>例大祭カウントダウン</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X84SBGMSQZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-X84SBGMSQZ');
+    </script>
+</head>
+<body>
+    <div class="centered-text">
+    <h1>例大祭が開会するまであと</h1>
+    <div id="countdownArea" class="countdown">
+        <h1><span id="countdown-day">0</span>日
+        <span id="countdown-hour">0</span>時間
+        <span id="countdown-min">0</span>分
+        <span id="countdown-sec">0</span>秒</h1>
+        <h1 style="size:100px; color: yellow;"><div id="countdown-message"></div></h1>
+        <h4>例大祭が行われる日時<br>2024/5/3/ 開会 10:30 <br><br>作成者「くだけん」は博麗神社社務所と<br>一切関係ありません。</h4>
+        
+    </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
